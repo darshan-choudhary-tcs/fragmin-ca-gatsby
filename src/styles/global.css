@@ -1,0 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: arial;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #005138;
+}
+
+#site_strip {
+	background-image: url("../images/strip.png");
+	height: 24px;
+}
+
+.right-block a:link, .right-block a:visited, .right-block a:hover {
+  color: #005138;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.right-block .inject-inst {
+  background: #90cbb2 url("../images/green-arrow.png") no-repeat scroll 95% center;
+}
